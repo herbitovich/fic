@@ -62,7 +62,7 @@ python boba/manage.py runserver
 
 Остальные файлы репозитория -- вспомогательные скрипты, включающие в себя скрипт аугментации данных, скрипт составления датасета, `dataset.yaml`.
 
-#Датасет
+# Датасет
 Можно найти по ссылке `https://drive.google.com/drive/folders/1Z2s9AZwCB5_lpNqKSa0gJaqVAp1z8Zld`, с папками `images` и `labels` для изображений и их аннотаций в формате YOLO.
 # Авторы 
 
