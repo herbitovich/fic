@@ -1,0 +1,16 @@
+train: ./images/train  # Path to your training images
+val: ./images/val      # Path to your validation images
+
+# Number of classes in your dataset (in this case, 8)
+nc: 8
+
+# Class names
+names:
+  0: СвободностящаяТипаРюмка
+  1: ОдноцепнаяБашенногоТипа
+  2: ПортальнаяНаОттяжках
+  3: ДвуцепнаяБашенногоТипа
+  4: ОдноцепнаяНаОттяжках
+  5: ТипаНабла
+  6: Многогранная
+  7: Необычная

@@ -1,0 +1,40 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Upload</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+
+<body style="background-image: url({% static 'img/back.png' %})">
+    <header id="site-header">
+        <h1 id="logo">boba.</h1>
+    </header>
+    <div id="main-content">
+        <div class="container">
+            <div class="field">
+                <div class="label">Input</div>
+                <div class="square">
+                    <input type="file" id="imageUpload" accept="image/*" class="file-input">
+                    <div id="fileName" class="file-name">No file chosen</div>
+                </div>
+            </div>
+        </div>
+        <div class="arrow" id="sendRequest"><img id="arrow" style="filter: invert(1); width: 60px;"
+                src="{%static 'img/arrows-exchange.svg'%}"></div>
+        <div class="field">
+            <div class="label">Output</div>
+            <div class="square">
+
+                <div id="outputImage"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="{% static 'js/home.js' %}"></script>
+</body>
+
+</html>
